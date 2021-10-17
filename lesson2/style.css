@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Mark", sans-serif;
+    font-weight: 300;
+}
+
+body{
+    background-image: url("img/dsc_0253.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.header{
+    width: 80%;
+    margin: 0 auto;
+    horiz-align: center;
+}
+
+.signature{
+    float: left;
+    width: 400px;
+    height: 100px;
+    }
+
+nav{
+    float: right
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 35px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    color:gold;
+}
+
+.content{
+    padding: 260px 0px 0px 200px;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+.france{
+    font-size: 12px;
+    text-transform: uppercase;
+    horiz-align: right;
+}
