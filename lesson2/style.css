@@ -52,15 +52,24 @@ nav a:hover{
 }
 
 .content{
-    padding: 260px 0px 0px 200px;
+    padding: 260px 0 0 200px;
     font-size: 35px;
     text-transform: uppercase;
     color: white;
+    /*background: black;*/
 
 }
 
 .france{
     font-size: 12px;
     text-transform: uppercase;
-    horiz-align: right;
+}
+
+.test{
+    width: 200px;
+    height: 200px;
+    background: black;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: white;
 }
