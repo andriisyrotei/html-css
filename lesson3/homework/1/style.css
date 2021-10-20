@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+
+.container{
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    background: silver;
+}
+
+.a{
+    width: 800px;
+    height: 200px;
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap{
+    display: flex;
+
+}
+
+.b{
+    width: 200px;
+    height: 200px;
+    background: aquamarine;
+    flex-grow: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c{
+    width: 200px;
+    height: 200px;
+    background: cornflowerblue;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

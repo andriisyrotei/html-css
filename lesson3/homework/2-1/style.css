@@ -1,0 +1,45 @@
+.container{
+    width: 400px;
+    height: 600px;
+    margin: 0;
+    /*column-gap: 10px;*/
+    /*background: gray;*/
+}
+
+.header{
+    width: 400px;
+    height: 50px;
+    background: silver;
+}
+
+.content{
+    display: flex;
+    justify-content: flex-start;
+    /*margin: 5px 0 5px 0;*/
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.menu{
+    width: 75px;
+    background: cornflowerblue;
+}
+
+.post1{
+    width: 325px;
+    height: 100px;
+    background: blueviolet;
+    /*margin: 0 0 5px 5px;*/
+}
+
+.post2{
+    width: 325px;
+    height: 100px;
+    background: salmon;
+    /*margin: 0 0 0 5px;*/
+}
+.footer {
+    width: 400px;
+    height: 50px;
+    background: silver;
+}

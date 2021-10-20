@@ -1,0 +1,44 @@
+.container{
+    width: 400px;
+    height: 900px;
+    margin: 0 auto;
+
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.widgets{
+    width: 100%;
+    height: 100px;
+    background: slateblue;
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    column-gap: 15px;
+}
+
+.box{
+    width: 100px;
+    height: 120px;
+    background: slateblue;
+    margin: 10px 0 10px 0;
+    border-radius: 2%;
+}
+
+.contacts{
+    width: 100%;
+    height: 400px;
+    background: slateblue;
+    border-radius: 2%;
+}
